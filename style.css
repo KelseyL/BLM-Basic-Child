@@ -1,0 +1,69 @@
+/*
+Theme Name: BLM-Basic Theme (EMD Web 3)
+Theme URI: http://www.kelseylawrence.com/wptestsite/
+Description: Your theme description goes here
+Author: Kelsey Lawrence
+Author URI: http://www.yourdomainname.com
+Template: BLM-Basic
+Version: 0.1
+*/
+
+@import url("../BLM-Basic/style.css");
+
+body {
+	background: url('../../../assets/img/bg.gif');
+	font-family: Verdana, Helvetica, Ariel, sans serif;
+}
+
+#branding {
+	background:url('../../../assets/img/logo.png') no-repeat;
+	position:absolute;
+	top:40px;
+	left:50px;
+
+}
+
+#main {
+	margin-top:105px;
+	border-top:#48244c 12px solid;
+	margin-left:25px;
+	width:890px;
+}
+
+#tagline {
+	visibility: hidden;
+}
+
+#content {
+	float:right;
+	width:585px;
+}
+
+#content p {
+	font-size:12px;
+}
+
+#sidebar {
+	float:none;
+	background-color: #fff;
+}
+
+#sidebar h4 {
+	padding-left:20px;
+}
+
+h4 {
+	background-color: #99619f;
+	color:#fff;
+	font-family: Verdana, Helvetica, Ariel, sans serif;		
+}
+
+#top-nav {
+	position:absolute;
+	top:58px;
+	left:330px;
+	width:630px;
+	background-color: #fff;
+	font-family: Verdana, Helvetica, Ariel, sans serif;
+}
+
