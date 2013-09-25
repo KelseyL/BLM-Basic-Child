@@ -12,22 +12,58 @@ Version: 0.1
 
 body {
 	background: url('../../../assets/img/bg.gif');
-	font-family: Verdana, Helvetica, Ariel, sans serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 #branding {
-	background:url('../../../assets/img/logo.png') no-repeat;
 	position:absolute;
 	top:40px;
 	left:50px;
+	background: none;
+	width:100%;
+}
 
+#logo {
+	background:url('../../../assets/img/logo.png') no-repeat;	
+	height:71px;
+	width:90%;
+	border-bottom:#48244c 10px solid;
+}
+
+#top-nav {
+	position:absolute;
+	top:75px;
+	left:330px;
+	width:630px;
+	background-color: #fff;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-bottom: 0px;
+}
+
+#top-nav ul li a:hover, 
+#top-nav ul li.current_page_item a,
+#top-nav ul li.current_page_parent a,
+#top-nav ul li.current_page_ancestor a,
+#top-nav ul li.current-menu-ancestor a, 
+#top-nav ul li.current-menu-item a,
+#top-nav ul li.current-menu-parent a {
+	background: none;
+	color:#48244c;
+}
+
+#top-nav ul li a {
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size:14px;
+	font-weight:100;
+	padding-bottom: 0;
 }
 
 #main {
-	margin-top:105px;
-	border-top:#48244c 12px solid;
+	margin-top:120px;
 	margin-left:25px;
 	width:890px;
+	box-shadow:0 6px 5px -5px #333333 inset;
 }
 
 #tagline {
@@ -37,10 +73,35 @@ body {
 #content {
 	float:right;
 	width:585px;
+
+}
+
+h1 {
+	color:#48244c;
+	font-size: 30px;
+	font-weight: 300;
 }
 
 #content p {
 	font-size:12px;
+}
+
+h2 a {
+	font-size: 30px;
+	color:#48244c;
+	font-weight: 300;
+}
+
+.entrymeta {
+	border-top: #99619f 1px solid;
+}
+
+.entrymeta p:first-child {
+	display:none;
+}
+
+.entrymeta p, .entrymeta p a {
+	color:#99619f;
 }
 
 #sidebar {
@@ -50,20 +111,36 @@ body {
 
 #sidebar h4 {
 	padding-left:20px;
+	padding-top: 3px;
+	font-family: Verdana, Geneva, sans-serif;		
+	font-weight:100;
+	font-size: 14px;
+}
+
+#sidebar ul li {
+	border-bottom: #959099 1px solid;
+	font-size: 12px;
 }
 
 h4 {
 	background-color: #99619f;
 	color:#fff;
-	font-family: Verdana, Helvetica, Ariel, sans serif;		
+	font-family: Verdana, Geneva, sans-serif;		
 }
 
-#top-nav {
-	position:absolute;
-	top:58px;
-	left:330px;
-	width:630px;
-	background-color: #fff;
-	font-family: Verdana, Helvetica, Ariel, sans serif;
+p.post-date {
+	padding-bottom:0;
+	font-style: italic;
+}
+
+footer {
+	border-top: none;
+}
+
+footer p {
+	text-align: right;
+	font-family:Verdana, Geneva, sans serif;
+	letter-spacing: 0.1em;
+	color:#99619f;
 }
 
