@@ -11,7 +11,7 @@ Version: 0.1
 @import url("../BLM-Basic/style.css");
 
 body {
-	background: url('../../../assets/img/bg.gif');
+	background: url('images/bg.gif');
 	font-family: Verdana, Geneva, sans-serif;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 #logo {
-	background:url('../../../assets/img/logo.png') no-repeat;	
+	background:url('images/logo.png') no-repeat;	
 	height:71px;
 	width:90%;
 	border-bottom:#48244c 10px solid;
