@@ -17,24 +17,20 @@ get_header(); ?>
 			
 			<h2><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
-			<p class="post-date"><?php the_date('F j \'y', '<h2>Posted on: ', '</h2>', true); ?> 	
+			<p class="post-date"><?php the_date('F j \'y', '<h2>Posted on: ', '</h2>', true); ?> 
 
 			<?php //echo get_the_date(); ?></p>
-
-			<p class="image-thumbnail"><?php the_post_thumbnail('medium'); ?></p>
 			
 			<?php the_content( __( 'Read more', 'blm_basic' ) ); ?>
 
 			<?php 
-				$meta_quote = get_post_meta($post->ID, 'quotation', true);
-				if($meta_quote) {
-					echo "<p>Quote: <strong>".$meta_quote." </strong></p>";
-				}else{
-					echo "<p>You forgot to insert a quote...</p>";
-				}
-			?>
-
-
+				// $meta_quote = get_post_meta($post->ID, 'quotation', true);
+				// if($meta_quote) {
+				// 	echo "<p>Quote: <strong>".$meta_quote." </strong></p>";
+				// }else{
+				// 	echo "<p>You forgot to insert a quote...</p>";
+				// }
+			?>	
 				
 			<?php get_template_part( 'inc/meta' ); ?>
 
@@ -46,7 +42,7 @@ get_header(); ?>
 	
 	</section><!-- #content -->
 
-<?php get_sidebar(); ?>
+
 
 </div><!-- #main -->
 

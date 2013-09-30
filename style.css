@@ -23,6 +23,16 @@ body {
 	width:100%;
 }
 
+.page-id-9 #content {
+	background-image:url(images/bg.png);
+}
+
+.page-id-9 #content h1 {
+	color:#ee5555;
+	font-weight: bold;
+	font-family: 'Helvetica';
+}
+
 #logo {
 	background:url('images/logo.png') no-repeat;	
 	height:71px;
@@ -76,6 +86,12 @@ body {
 
 }
 
+.image-thumbnail {
+	float:left;
+	padding: 0px 10px 5px 0px;
+
+}
+
 h1 {
 	color:#48244c;
 	font-size: 30px;
@@ -102,6 +118,15 @@ h2 a {
 
 .entrymeta p, .entrymeta p a {
 	color:#99619f;
+}
+
+.side-quote {
+	color:#99619f;
+	font-family:Verdana, Geneva, sans-serif;
+	font-style:italic;
+	font-weight: bold; 
+	line-height: 28px;
+	margin-top: 60px;
 }
 
 #sidebar {
