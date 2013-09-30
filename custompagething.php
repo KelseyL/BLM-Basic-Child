@@ -22,9 +22,12 @@ get_header(); ?>
 		
 	</section><!-- #content -->
 
-<?php //get_sidebar(); 
+<?php //get_sidebar();
+
+
 	$meta_quote = get_post_meta($post->ID, 'quotation', true);
 	if ($meta_quote) { 
+	echo "<img class='callout' src='wp-content/themes/BLM-Basic-child/images/quote.png' alt='callout'>";	
 	echo "<p class='side-quote'>".$meta_quote."</p>"; 
 	} else { 
 	echo "You forgot to insert a quote…";

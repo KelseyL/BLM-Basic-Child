@@ -71,9 +71,10 @@ body {
 
 #main {
 	margin-top:120px;
-	margin-left:25px;
-	width:890px;
+	padding-left:50px;
+	width:900px;
 	box-shadow:0 6px 5px -5px #333333 inset;
+	background-color: #f5f4f5;
 }
 
 #tagline {
@@ -126,7 +127,12 @@ h2 a {
 	font-style:italic;
 	font-weight: bold; 
 	line-height: 28px;
-	margin-top: 60px;
+	z-index:100;
+	margin-top: -50px
+}
+
+.callout {
+	margin-top: 28px;
 }
 
 #sidebar {
@@ -167,5 +173,6 @@ footer p {
 	font-family:Verdana, Geneva, sans serif;
 	letter-spacing: 0.1em;
 	color:#99619f;
+	background-color: #f5f4f5;
 }
 
